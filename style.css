@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: x-large;
+    margin-left: 3%;
+}
+form{
+    margin-top: 3%;
+}
+#country{
+    border-radius: 5px;
+    height: 35px;
+    width: 50%;
+    background-color: lightgray;
+}
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 35px;
+    width: 50%;
+}
+p{
+    margin: 5px;
+    font-size: small;
+}
+::placeholder{
+    padding-left: 10px;
+}
+#state{
+    background-color: lightgray;
+    border-radius: 5px;
+    height: 30px;
+}
+.st{
+    margin-left: 40px;
+}
+.cb{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px; 
+    font-size: small
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: gold;
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+
+}

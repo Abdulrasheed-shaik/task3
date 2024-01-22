@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="post" autocomplete="off" target="_blank">
+        <label for="coun">Country/Region</label><br>
+        <select name="coun" id="country">
+            <option value="india">INDIA</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="russia">RUSSIA</option>
+            <option value="australia">AUSTRALIA</option>
+        </select><br><br>
+        <label for="name" >Full Name (First and Last Name)</label><br>
+        <input type="text" placeholder="Enter your full name"><br><br>
+        <label for="mobile">Mobile Number</label><br>
+        <input type="tel" placeholder="Enter your mobile number"><br>
+        <p>May be used to assist delivery</p><br>
+        <label for="pin">Pincode</label><br>
+        <input type="text" placeholder="6 digits [0-9] PINCODE"><br><br>
+        <label for="dno">Flat, House no., Building, Company, Apartment</label><br>
+        <input type="text"><br><br>
+        <label for="add">Area, Street, Sector, Village</label><br>
+        <input type="text"><br><br>
+        <label for="landmark">Landmark</label><br>
+        <input type="text" placeholder="Eg:near apollo hospital"><br><br>
+        <label for="tc">Town/City</label><br>
+        <input type="text">
+        <label for="state" class="st">State</label>
+        <select name="state" id="state">
+            <option value="" selected>choose a state</option>
+            <option value="ap">Andha Pradesh</option>
+            <option value="ts">Telangana</option>
+            <option value="tn">Tamilnadu</option>
+            <option value="kr">Kerala</option>
+        </select><br><br>
+        <input type="checkbox" name="cb" class="cb">Make this my default address <br><br>
+        Delivery Instructions (optional) <br>
+        >&nbsp;<a href="#">Add preferences,notesaccess codes and more</a><br><br>
+        <button type="submit">Add address</button><br><br>
+    </form>
+</body>
+</html>
